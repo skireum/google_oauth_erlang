@@ -10,6 +10,3 @@ dep_jsx = git https://github.com/talentdeficit/jsx.git v2.10.0
 dep_base64url = git https://github.com/dvv/base64url.git 1.0.1
 
 include $(if $(ERLANG_MK_FILENAME),$(ERLANG_MK_FILENAME),erlang.mk)
-
-ERLC_OPTS += $(ERLC_COMPILE_OPTS)
-TEST_ERLC_OPTS += $(ERLC_COMPILE_OPTS)
